@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Traffic Light Animation',
+      title: 'Ready for exam',
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),

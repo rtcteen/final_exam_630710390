@@ -93,7 +93,7 @@ class ProfileCard extends StatelessWidget {
                   Icon(FontAwesomeIcons.github, size: 24, color: isDarkMode ? Colors.white : Colors.black), //เปลี่ยนสีไอคอน
                   const SizedBox(width: 4),  // เว้นช่องว่างระหว่างไอคอนและข้อความ
                   // แสดงลิงค์
-                  Text(gitHub, style: TextStyle(color: isDarkMode ? Colors.black : Colors.black)), //เปลี่ยนสีข้อความ
+                  Text(gitHub, style: TextStyle(color: isDarkMode ? Colors.white : Colors.black)), //เปลี่ยนสีข้อความ
                 ],
               ),
             ],

@@ -1,4 +1,32 @@
-import 'package:final_exam_630710390/home_page.dart';
+//import 'package:final_exam_630710390/answer1.dart';
+import 'package:final_exam_630710390/answer2.dart';
+//import 'package:final_exam_630710390/ready_for_exam/home_page.dart';
+import 'package:flutter/material.dart';
+
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'final',
+      theme: ThemeData(
+        primarySwatch: Colors.purple,
+      ),
+      home: Answer2()
+    );
+  }
+}
+
+
+/*
+import 'package:final_exam_630710390/ready_for_exam/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -39,6 +67,7 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
+*/
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});

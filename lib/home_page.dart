@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
         child: Center(
           child: ProfileCard(
             // ใช้ ProfileCard widget สำหรับแสดงข้อมูลของผู้ใช้
-            name: 'Ruthaichanok Reungthanoo',
+            name: 'Ruthaichanok ',
             position: 'Student',
             email: 'reungthanoo_r@silpakorn.edu',
             phoneNumber: '0987654321',
